@@ -1,0 +1,184 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.ld-ucc-meta-container{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+.ld-ucc-meta-container *{
+    box-sizing: border-box;
+}
+.ld-ucc-meta-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(200, 200, 200);
+}
+.ld-ucc-meta-overlay span{
+    border: 4px solid #FFFFFF;
+   border-top: 4px solid #000000;
+    border-radius: 50%;
+    width: 20px;
+   height: 20px;
+    animation: learndash-ucc-spinner-icon 2s linear infinite;
+  display: inline-block;
+  top: 20px;
+  left: 50%;
+  margin: 0 0 0 -10px;
+  position: absolute;
+}
+@keyframes learndash-ucc-spinner-icon {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.ld-ucc-meta-content{
+    width: 100%;
+    padding: 1.4em;
+}
+.ld-ucc-meta-content>p{
+    margin: 0 0 10px 0;
+}
+
+.ld-ucc-course-container{
+    width: 100%;
+    padding: 1.4em;
+    background: rgb(235, 235, 235);
+}
+.ld-ucc-course-add{
+    margin: 20px 0 0 0 !important;
+    text-align: center;
+}
+.ld-ucc-course-add span{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(44,108,128);
+    display:inline-block;
+    cursor: pointer;
+}
+    
+.ld-ucc-course-add span::before {
+      content: "+";
+      height:30px;
+      width:30px;
+      font-size:30px;
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+      justify-content:center;
+      font-weight:bold;
+      font-family:courier;
+      color:white;
+}
+.learndash-ucc-courses-item{
+    margin: 0 0 10px 0;
+    background: rgba(0,0,0,0.05);
+    padding: 30px 6px 6px 6px;
+    position: relative;
+}
+.learndash-ucc-courses-item select{
+    width: 100%;
+}
+.learndash-ucc-courses-item span{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+
+.ld-ucc-group-container{
+    width: 100%;
+    padding: 1.4em;
+    background: rgb(235, 235, 235);
+}
+.ld-ucc-group-add{
+    margin: 20px 0 0 0 !important;
+    text-align: center;
+}
+.ld-ucc-group-add span{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(44,108,128);
+    display:inline-block;
+    cursor: pointer;
+}
+    
+.ld-ucc-group-add span::before {
+      content: "+";
+      height:30px;
+      width:30px;
+      font-size:30px;
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+      justify-content:center;
+      font-weight:bold;
+      font-family:courier;
+      color:white;
+}
+.learndash-ucc-groups-item{
+    margin: 0 0 10px 0;
+    background: rgba(0,0,0,0.05);
+    padding: 30px 6px 6px 6px;
+    position: relative;
+}
+.learndash-ucc-groups-item select{
+    width: 100%;
+}
+.learndash-ucc-groups-item span{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+
+.ld-ucc-user-container{
+    width: 100%;
+    padding: 1.4em;
+    background: rgb(235, 235, 235);
+}
+.ld-ucc-user-add{
+    margin: 20px 0 0 0 !important;
+    text-align: center;
+}
+.ld-ucc-user-add span{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(44,108,128);
+    display:inline-block;
+    cursor: pointer;
+}
+    
+.ld-ucc-user-add span::before {
+      content: "+";
+      height:30px;
+      width:30px;
+      font-size:30px;
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+      justify-content:center;
+      font-weight:bold;
+      font-family:courier;
+      color:white;
+}
+.learndash-ucc-users-item{
+    margin: 0 0 10px 0;
+    background: rgba(0,0,0,0.05);
+    padding: 30px 6px 6px 6px;
+    position: relative;
+}
+.learndash-ucc-users-item select{
+    width: 100%;
+}
+.learndash-ucc-users-item span{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}

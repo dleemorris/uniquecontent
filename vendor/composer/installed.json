@@ -1,0 +1,46 @@
+{
+    "packages": [
+        {
+            "name": "easily-amused/php-packages",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/easily-amused/php-packages.git",
+                "reference": "c32bb1429f4a9c074380a06b475bb5dc2ead8882"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/easily-amused/php-packages/zipball/c32bb1429f4a9c074380a06b475bb5dc2ead8882",
+                "reference": "c32bb1429f4a9c074380a06b475bb5dc2ead8882",
+                "shasum": ""
+            },
+            "time": "2021-11-18T09:22:13+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "EA\\Licensing\\": "Licensing/"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Easily Amused",
+                    "email": "support@easilyamusedinc.com"
+                }
+            ],
+            "description": "PHP Packages for Easily Amused Projects",
+            "support": {
+                "source": "https://github.com/easily-amused/php-packages/tree/master",
+                "issues": "https://github.com/easily-amused/php-packages/issues"
+            },
+            "install-path": "../easily-amused/php-packages"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
